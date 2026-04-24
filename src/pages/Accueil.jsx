@@ -1,5 +1,5 @@
 import './Accueil.css'
-import Card from '../components/card.jsx'
+import Card from '../components/Card.jsx'
 function Accueil() {
   return(
     <div className="accueil-container">
