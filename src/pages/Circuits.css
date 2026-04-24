@@ -1,0 +1,20 @@
+.circuits-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    margin-top: 20px;
+    border: 1px solid var(--couleur-neon);
+    border-radius: 5px;
+    background-color: var(--couleur-carte);
+    color: var(--couleur-texte);
+    box-sizing: border-box;
+}
+.circuits-button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid var(--couleur-neon);
+    border-radius: 5px;
+    background-color: var(--couleur-carte);
+    color: var(--couleur-texte);
+}

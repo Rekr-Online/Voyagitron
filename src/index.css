@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+  --couleur-fond: #1a1a2e;
+  --couleur-fond-navbar: #060623;
+  --couleur-neon: #00ff88;
+  --couleur-texte: rgb(216, 221, 211);
+  --couleur-carte: #060623;
+}
+
+body {
+  margin: 0;
+  color: var(--couleur-texte);
+  background-color: var(--couleur-fond);
+  font-family: "Saira Stencil", sans-serif;
+}
+
+#root {
+  width: 1126px;
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100svh;
+  box-sizing: border-box;
+  padding-top: 60px;
+}

@@ -1,0 +1,36 @@
+.auth-container{
+    background-color: var(--couleur-carte);
+    border-radius: 10px;
+    border: 1px solid var(--couleur-neon);
+    box-shadow: 0 0 10px var(--couleur-neon), 0 0 10px var(--couleur-neon), 0 0 20px var(--couleur-neon);
+    padding: 20px;
+    color: var(--couleur-texte);
+    width: 100%;
+    max-width: 400px;
+}
+.auth-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid var(--couleur-neon);
+    border-radius: 5px;
+    background-color: var(--couleur-carte);
+    color: var(--couleur-texte);
+    box-sizing: border-box;
+}
+.auth-button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid var(--couleur-neon);
+    border-radius: 5px;
+    background-color: var(--couleur-carte);
+    color: var(--couleur-texte);
+}
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--couleur-fond);
+}

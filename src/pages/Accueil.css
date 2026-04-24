@@ -1,0 +1,17 @@
+.accueil-container {
+    background-color: var(--couleur-fond);
+    min-height: 100vh;
+    color: var(--couleur-texte);
+}
+.accueil-header h1 {
+    margin: 0;
+}
+.accueil-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+}
+.accueil-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
